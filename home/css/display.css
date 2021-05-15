@@ -1,0 +1,23 @@
+#btn1
+  {
+  background: #007bff;
+  border: 2px solid #007bff;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 25px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 32px;
+  border-radius: 50px;
+  transition: 0.5s;
+  margin: 0 20px 20px 0;
+  color: #fff;
+}
+  #btn1:hover
+  {
+    background: none;
+    border-color: #fff;
+    color: #fff;
+  }
+  

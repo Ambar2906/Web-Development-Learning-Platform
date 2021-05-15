@@ -1,0 +1,445 @@
+/*--------------------------------------------------------------------- File Name: style.css ---------------------------------------------------------------------*/
+/*--------------------------------------------------------------------- import Fonts ---------------------------------------------------------------------*/
+ @import url('https://fonts.googleapis.com/css?family=Rajdhani:300,400,500,600,700');
+ @import url('https://fonts.googleapis.com/css?family=Poppins:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i');
+/*****---------------------------------------- 1) font-family: 'Rajdhani', sans-serif;
+ 2) font-family: 'Poppins', sans-serif;
+ ----------------------------------------*****/
+/*--------------------------------------------------------------------- import Files ---------------------------------------------------------------------*/
+ @import url(animate.min.css);
+ @import url(normalize.css);
+ @import url(font-awesome.min.css);
+ @import url(meanmenu.css);
+ @import url(owl.carousel.min.css);
+ @import url(slick.css);
+ @import url(jquery.fancybox.min.css);
+ @import url(jquery-ui.css);
+ @import url(nice-select.css);
+/*--------------------------------------------------------------------- skeleton ---------------------------------------------------------------------*/
+ * {
+     box-sizing: border-box !important;
+}
+ body {
+     color: #666666;
+     font-size: 14px;
+     font-family: 'poppins', sans-serif;
+     line-height: 1.80857;
+     font-weight: normal;
+     overflow-x: hidden;
+}
+ a {
+     color: #1f1f1f;
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+ h1, h2, h3, h4, h5, h6 {
+     letter-spacing: 0;
+     font-weight: normal;
+     position: relative;
+     padding: 0 0 10px 0;
+     font-weight: normal;
+     line-height: normal;
+     color: #111111;
+     margin: 0 
+}
+ h1 {
+     font-size: 24px 
+}
+ h2 {
+     font-size: 22px 
+}
+ h3 {
+     font-size: 18px 
+}
+ h4 {
+     font-size: 16px 
+}
+ h5 {
+     font-size: 14px 
+}
+ h6 {
+     font-size: 13px 
+}
+ *, *::after, *::before {
+     -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+     box-sizing: border-box;
+}
+ h1 a, h2 a, h3 a, h4 a, h5 a, h6 a {
+     color: #212121;
+     text-decoration: none!important;
+     opacity: 1 
+}
+ button:focus {
+     outline: none;
+}
+ ul, li, ol {
+     margin: 0px;
+     padding: 0px;
+     list-style: none;
+}
+ p {
+     margin: 0px;
+     font-weight: 300;
+     font-size: 15px;
+     line-height: 24px;
+}
+ a {
+     color: #222222;
+     text-decoration: none;
+     outline: none !important;
+}
+ a, .btn {
+     text-decoration: none !important;
+     outline: none !important;
+     -webkit-transition: all .3s ease-in-out;
+     -moz-transition: all .3s ease-in-out;
+     -ms-transition: all .3s ease-in-out;
+     -o-transition: all .3s ease-in-out;
+     transition: all .3s ease-in-out;
+}
+ img {
+     max-width: 100%;
+     height: auto;
+}
+ 
+ .btn-custom {
+     margin-top: 20px;
+     background-color: transparent !important;
+     border: 2px solid #ddd;
+     padding: 12px 40px;
+     font-size: 16px;
+}
+ .lead {
+     font-size: 18px;
+     line-height: 30px;
+     color: #767676;
+     margin: 0;
+     padding: 0;
+}
+ 
+
+ blockquote {
+     margin: 20px 0 20px;
+     padding: 30px;
+}
+ button {
+     border: 0;
+     margin: 0;
+     padding: 0;
+     cursor: pointer;
+}
+ .full {
+     float: left;
+     width: 100%;
+}
+ .layout_padding {
+     padding-top: 90px;
+     padding-bottom: 90px;
+}
+ .layout_padding_2 {
+     padding-top: 75px;
+     padding-bottom: 75px;
+}
+ .light_silver {
+     background: #f9f9f9;
+}
+ .theme_bg {
+     background: #38c8a8;
+}
+ .margin_top_30 {
+     margin-top: 30px !important;
+}
+ .full {
+     width: 100%;
+     float: left;
+     margin: 0;
+     padding: 0;
+}
+/**-- heading section --**/
+ .main_heading {
+     text-align: center;
+     display: flex;
+     justify-content: center;
+     position: relative;
+     margin-bottom: 50px;
+}
+ .main_heading h2 {
+     padding: 0;
+     font-size: 48px;
+     line-height: 60px;
+     font-weight: 400;
+     position: relative;
+     letter-spacing: -0.5px;
+     color: #114c7d;
+     border-left: solid #38c8a8 10px;
+     padding-left: 15px;
+}
+ .main_heading h2 strong {
+     background: #38c8a8;
+     color: #fff;
+     font-weight: 600;
+     padding: 0 15px;
+     line-height: 68px;
+}
+ .white_heading_main h2 {
+     color: #fff;
+}
+ .small_main_heading {
+     margin-top: 25px;
+     float: left;
+     width: 100%;
+     border-bottom: solid rgba(0, 0, 0, 0.07) 1px;
+     margin-bottom: 25px;
+}
+ .small_main_heading h2 {
+     padding: 2px 0 20px 0;
+     color: #114c7d;
+     font-weight: 400;
+     font-size: 28px;
+     background-image: url('../images/fevicon.png');
+     background-repeat: no-repeat;
+     padding-left: 55px;
+     letter-spacing: -0.5px;
+}
+ .small_main_heading h2 strong {
+     color: #38c8a8;
+     font-weight: 600;
+}
+ .main_bt {
+     background: transparent;
+    color: #fff;
+    padding: 15px 60px 15px 60px;
+    float: left;
+    font-size: 15px;
+    font-weight: 400;
+    border: solid #fff 2px;
+    border-radius: 30px;
+    margin: 63px 0px 60px 0px;
+}
+
+ a.readmore_bt {
+     color: #fff;
+     font-weight: 300;
+     text-decoration: underline !important;
+}
+ .main_bt:hover, .main_bt:focus {
+     background: #000;
+    border: solid #000 2px;
+    color: #fff;}
+
+
+/**-- list icon --**/
+ .ul_list_info_icon ul {
+     list-style: none;
+}
+ .ul_list_info_icon ul li {
+     display: inline;
+     float: right;
+     width: 100%;
+}
+ .ul_list_info_icon ul li img {
+     width: 75px;
+     float: right;
+}
+
+
+ .text_align_center {
+     text-align: center;
+}
+
+ 
+
+
+ .about {
+    
+     background: url(../images/about-bg.jpg);
+     background-size: 100% 100%;
+     background-repeat: no-repeat;
+     background-position: center center;
+     padding: 90px 0px;
+}
+ .aboutheading {
+    text-align: center;
+    padding-bottom: 50px;
+}
+ .aboutheading h2 {
+     padding: 0px 0px 20px 0px;
+     font-size: 50px;
+     font-weight: bold;
+     color: #b32137;
+     line-height: 50px;
+}
+
+.aboutheading span {
+     color:#141012; 
+     font-size: 17px;
+     line-height: 32px;
+}
+
+.black {color: #141012 }
+
+ .about .about-box figure {
+    margin: 0px;
+     
+}
+ .about .about-box p {
+    font-size: 17px;
+     line-height: 32px;
+     color: #141012;
+     
+}
+ .about .about-box a{
+     width: 200px;
+     font-size: 17px;
+     padding: 20px 0px;
+     background-color: #81256c;
+     color: #fff;
+     display: inline-block;
+     line-height: 20px;
+     border-radius: 30px;
+     text-align: center;
+     margin-top: 30px;
+}
+ .about .about-box a:hover {
+    color: #fff;
+     background-color: #81256c;
+}
+
+.border {border-radius: 30px; border: #81256c solid 2px !important; padding: 40px 40px;} 
+
+ .Library {
+     background-color: #fff;
+     padding: 90px 0px;
+}
+ .Library .titlepage {
+     text-align: center;
+     padding-bottom: 54px;
+}
+ .Library .titlepage h2 {
+     padding: 0px 0px 20px 0px;
+     font-size: 50px;
+     font-weight: bold;
+     color: #b32137;
+     line-height: 50px;
+}
+ 
+ .Library .titlepage span {
+    color:#141012; 
+     font-size: 17px;
+     line-height: 32px;
+}
+
+.bg {background-color: #81256c;}
+
+.Library-box {
+    padding: 20px 0px 10px 0px;
+}
+.bg .Library-box figure {margin: 0;}
+
+.read-more {
+    justify-content: center;
+    display: flex;
+}
+
+
+
+.read-more a{
+     width: 200px;
+     font-size: 17px;
+     padding: 20px 0px;
+     background-color: #81256c;
+     color: #fff;
+     display: inline-block;
+     line-height: 20px;
+     border-radius: 30px;
+     text-align: center;
+     margin-top: 30px;
+     
+    }
+
+.read-more a:hover {background-color:  #000;}
+
+
+.box {display: flex; align-items: center; flex-wrap: wrap; text-align: center;}
+.Books {
+     background-color: #fff;
+     
+}
+ .Books .titlepage {
+     text-align: center;
+     padding-bottom: 65px;
+}
+ .Books .titlepage h2 {
+     padding: 0px 0px 20px 0px;
+     font-size: 50px;
+     font-weight: bold;
+     color: #b32137;
+     line-height: 50px;
+}
+ 
+ .Books .titlepage span {
+    color:#141012; 
+     font-size: 17px;
+     line-height: 32px;
+}
+
+
+.Books .book-box figure {margin: 0px;} 
+
+.Books p {
+     padding: 30px 46px;
+color: #141012;
+font-size: 17px;
+line-height: 30px;
+text-align: center;
+}
+
+
+
+
+
+
+ 
+ 
+}
+/*--------------------------------------------------------------------- inner_page css ---------------------------------------------------------------------*/
+ .about_page .about {
+    margin-bottom: 90px;
+}
+ .about-bg {
+    background-color: #b32137;
+
+
+
+margin-top: 90px;
+}
+
+
+.Books-bg .titlepage {margin-top: 90px;}
+
+
+.Books-bg .read-more { margin-bottom: 90px; } 
+ .about-bg .abouttitle h2 {
+     color: #fff;
+     text-transform: uppercase;
+     font-size: 40px;
+     line-height: 45px;
+     padding: 40px 0;
+     font-weight: 500;
+     text-align: center;
+}
+
+
+ 
+/** slider arrow **/
+ 
+
+
+
+
